@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  telegram_forwarder:
+    build:
+      .
+    restart: always
+    env_file:
+      - config.env

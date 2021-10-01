@@ -1,1 +1,6 @@
-settings.py
+.idea/
+__pycache__/
+venv/
+session/*.session*
+config.env
+
