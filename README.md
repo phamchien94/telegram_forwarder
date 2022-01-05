@@ -15,8 +15,8 @@ client lib
 TG_API_ID=xxxxxxx
 TG_API_HASH=xxxxxxx
 TG_SESSION=/telegram_forwarder/session/my_telegram.session
-FORWARD_CHAT_IDS=xxxxxxx
-TARGET_CHAT_ID=xxxxxxx
+FORWARD_CHAT_IDS="chat_id_1:chat_id_2"
+TARGET_CHAT_ID="target_chat_id_1:target_chat_id_2"
 ```
 `TG_API_ID` and `TG_API_HASH`: Telegram api id and hash of your application.
 Reference: https://core.telegram.org/api/obtaining_api_id
