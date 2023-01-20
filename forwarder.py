@@ -23,7 +23,7 @@ def handler(client, message):
             client.forward_messages(
                 chat_id=target,
                 from_chat_id=message.chat.id,
-                message_ids=message.message_id
+                message_ids=message.id
             )
         is_duplicated = False
 
